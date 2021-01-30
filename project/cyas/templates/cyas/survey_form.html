@@ -1,0 +1,9 @@
+<html>
+    <h1>Pick Your Projects</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Save" />
+    </form>
+</html>
+
