@@ -25,7 +25,7 @@ SECRET_KEY = '(i@)%1s10av72avw7fb4w+syjlh(4jrj27f-i28@dt74+(iwr_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cyas.joelburton.net']
 
 
 # Application definition
